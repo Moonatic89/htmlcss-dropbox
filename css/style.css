@@ -41,7 +41,7 @@ body {
 }
 
 .debug .planeCard_block {
-    height: 800px;
+    height: 625px;
     background-color: cadetblue;
 }
 
@@ -58,6 +58,22 @@ body {
 .debug .enterCard {
     height: 100px;
     background-color: crimson;
+}
+
+.debug .partner_block {
+    height: 400px;
+    background-color: darkgreen;
+}
+
+.debug .info_title {
+    height: 2rem;
+    background-color: darkolivegreen;
+}
+
+.debug .info {
+    height: 100px;
+    background-color: darksalmon;
+    border: 1px solid black;
 }
 
 /* #endregion */
@@ -81,6 +97,19 @@ header {
 }
 
 .wildcard {
+    float: left;
+    width: 33%;
+}
+
+/* #endregion */
+
+/* #region Info */
+
+.info_block .row {
+    padding: 1rem;
+}
+
+.info {
     float: left;
     width: 33%;
 }
