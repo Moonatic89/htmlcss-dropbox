@@ -33,6 +33,14 @@ Margin & Paddings
     margin: auto;
 }
 
+.m-b1 {
+    margin-bottom: 1rem;
+}
+
+.m-b2 {
+    margin-bottom: 2rem;
+}
+
 .b_spacer2 {
     margin-bottom: 2rem;
 }
@@ -81,6 +89,10 @@ Columns widths
     width: 50%;
 }
 
+.col-60 {
+    width: 60%;
+}
+
 .col-65 {
     width: 65%;
 }
@@ -127,6 +139,14 @@ Background colors
     background-color: #0061ff;
 }
 
+.border_gray {
+    border: 1px solid lightgray;
+}
+
+.lowerborder_gray {
+    border-bottom: 1px solid lightgray;
+}
+
 /* 
 Color list 
 
@@ -162,6 +182,10 @@ Text Colors
     color: black;
 }
 
+.text_blue {
+    color: blue;
+}
+
 /************
 Link property
 *************/
@@ -172,6 +196,10 @@ Link property
 
 .text_white a {
     color: white;
+}
+
+.text_blue a {
+    color: blue;
 }
 
 .no-d a {
@@ -201,11 +229,11 @@ Link property
     background-color: chocolate;
 } */
 
-.debug .row .wildcard {
+/* .debug .row .wildcard {
     height: 400px;
     background-color: coral;
     border: 1px solid black;
-}
+} */
 
 .debug .enterCard {
     height: 100px;
@@ -271,6 +299,7 @@ Link property
 
 header {
     position: fixed;
+    background-color: white;
     width: 100%;
     top: 0;
     left: 0;
@@ -317,6 +346,12 @@ header {
 
 /* #region Wildcards */
 
+.wildcard {
+    font-size: .8rem;
+    float: left;
+    width: 33%;
+}
+
 .planeCard_text h2 {
     font-size: 2rem;
 }
@@ -325,13 +360,16 @@ header {
     display: inline;
 }
 
-.planeCard_col .row {
-    padding: 1rem;
+.wildcard_planeList dt, .wildcard_planeList dd {
+    margin-bottom: 1rem;
 }
 
-.wildcard {
-    float: left;
-    width: 33%;
+.wildcard_planeList .m-b2 {
+    margin-bottom: 2rem;
+}
+
+.planeCard_col .row {
+    padding: 1rem;
 }
 
 /* #endregion */
