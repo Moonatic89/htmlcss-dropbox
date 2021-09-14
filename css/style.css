@@ -14,6 +14,7 @@
 
 body {
     position: relative;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* #endregion */
@@ -56,20 +57,36 @@ Columns widths
     width: 10%;
 }
 
-.col-40 {
-    width: 40%;
+.col-35 {
+    width: 35%;
 }
 
-.col-45 {
-    width: 45%;
+.col-40 {
+    width: 40%;
 }
 
 .col-43 {
     width: 43%;
 }
 
+.col-45 {
+    width: 45%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-65 {
+    width: 65%;
+}
+
 .col-80 {
     width: 80%;
+}
+
+.col-100 {
+    width: 100%;
 }
 
 /************
@@ -104,6 +121,29 @@ Background colors
 .back_blue {
     background-color: #0061ff;
 }
+
+/* 
+Color list 
+
+Designit a2d39b d0e9cd
+ASU 61082b
+UF 0093ce
+Topps ff1c1c
+
+World something d5001f
+Hearst b4d0e7
+lonely planet 0d2481
+clear channel ffd830
+
+trial b4d0e7
+
+
+
+
+
+
+
+*/
 
 /************
 Text Colors
@@ -243,7 +283,7 @@ header {
 .hero_title {
     /* position: absolute; */
     padding-top: 8rem;
-    font-size: 3rem;
+    font-size: 2.4rem;
 }
 
 /* #endregion */
