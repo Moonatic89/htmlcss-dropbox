@@ -33,6 +33,10 @@ Margin & Paddings
     margin: auto;
 }
 
+.b_spacer2 {
+    margin-bottom: 2rem;
+}
+
 /************
 Float
 *************/
@@ -178,25 +182,24 @@ Link property
 
 /* #region Debug */
 
-.debug header {
+/* .debug header {
     background-color: aqua;
-    height: 50px;
     width: 100%
-}
+} */
 
-.debug .hero_block {
-    /* background-color: blue; */
-    /* height: 600px; */
-}
+/* .debug .hero_block {
+    background-color: blue;
+    height: 600px;
+} */
 
-.debug .planeCard_block {
+/* .debug .planeCard_block {
     height: 625px;
     background-color: cadetblue;
 }
 
 .debug .planeCard_text {
     background-color: chocolate;
-}
+} */
 
 .debug .row .wildcard {
     height: 400px;
@@ -268,6 +271,7 @@ Link property
 
 header {
     position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
 }
@@ -312,6 +316,14 @@ header {
 /* #endregion */
 
 /* #region Wildcards */
+
+.planeCard_text h2 {
+    font-size: 2rem;
+}
+
+.radiobox div {
+    display: inline;
+}
 
 .planeCard_col .row {
     padding: 1rem;
