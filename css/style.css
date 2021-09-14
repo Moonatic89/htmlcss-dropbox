@@ -20,8 +20,85 @@ body {
 
 /* #region Utility */
 
+/************
+Margin & Paddings
+*************/
+
+.p1 {
+    padding: 1rem;
+}
+
+/************
+Float
+*************/
+
 .f-l {
     float: left;
+}
+
+/************
+Columns widths
+*************/
+
+.col-5 {
+    width: 5%;
+}
+
+.col-7 {
+    width: 7%;
+}
+
+.col-10 {
+    width: 10%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-45 {
+    width: 45%;
+}
+
+.col-43 {
+    width: 43%;
+}
+
+/************
+Text
+*************/
+
+.row_list li {
+    list-style: none;
+    display: inline-block;
+}
+
+.align-r {
+    text-align: right;
+}
+
+/************
+Buttons
+*************/
+
+.btn {
+    padding: .5rem 1rem;
+}
+
+/************
+Background colors
+*************/
+
+.back_blue {
+    background-color: #0061ff;
+}
+
+/************
+Text Colors
+*************/
+
+.text_white {
+    color: white;
 }
 
 /* #endregion */
@@ -111,9 +188,13 @@ body {
 /* #region Header */
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+}
+
+.top_links li {
+    margin: 0 2rem;
 }
 
 /* #endregion */
@@ -150,10 +231,6 @@ header {
 
 .team_grid {
     width: 14%;
-}
-
-.team_grid .row {
-    /* width: 50%; */
 }
 
 .team_infobox {
