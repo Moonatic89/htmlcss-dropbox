@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-clearfix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -14,6 +14,15 @@ clearfix::after {
 
 body {
     position: relative;
+}
+
+/* #endregion */
+
+/* #region Utility */
+
+.px {
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
 
 /* #endregion */
@@ -40,7 +49,16 @@ body {
     background-color: chocolate;
 }
 
-.debug .wildcard {}
+.debug .row .wildcard {
+    height: 400px;
+    background-color: coral;
+    border: 1px solid black;
+}
+
+.debug .enterCard {
+    height: 100px;
+    background-color: crimson;
+}
 
 /* #endregion */
 
@@ -55,5 +73,18 @@ header {
 /* #endregion */
 
 /* #region Main */
+
+/* #region Wildcards */
+
+.planeCard_col .row {
+    padding: 1rem;
+}
+
+.wildcard {
+    float: left;
+    width: 33%;
+}
+
+/* #endregion */
 
 /* #endregion */
