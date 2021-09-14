@@ -101,6 +101,11 @@ body {
     background-color: cornsilk;
 }
 
+.debug .footer_col {
+    background-color: gray;
+    height: 300px;
+}
+
 /* #endregion */
 
 /* #region Header */
@@ -158,6 +163,14 @@ header {
 .team_splash {
     width: 50%;
     height: 50%;
+}
+
+.row .bottom_links {
+    width: 20%;
+}
+
+.footer_col .row {
+    padding: 2rem;
 }
 
 /* #endregion */
