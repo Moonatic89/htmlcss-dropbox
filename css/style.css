@@ -28,6 +28,10 @@ Margin & Paddings
     padding: 1rem;
 }
 
+.m-a {
+    margin: auto;
+}
+
 /************
 Float
 *************/
@@ -64,6 +68,10 @@ Columns widths
     width: 43%;
 }
 
+.col-80 {
+    width: 80%;
+}
+
 /************
 Text
 *************/
@@ -75,6 +83,10 @@ Text
 
 .align-r {
     text-align: right;
+}
+
+.align-c {
+    text-align: center;
 }
 
 /************
@@ -132,7 +144,7 @@ Link property
 }
 
 .debug .hero_block {
-    background-color: blue;
+    /* background-color: blue; */
     height: 600px;
 }
 
@@ -220,6 +232,21 @@ header {
 /* #endregion */
 
 /* #region Main */
+
+/* #region Hero  */
+
+.hero_block {
+    background-color: #b4d0e7;
+    /* position: relative; */
+}
+
+.hero_title {
+    /* position: absolute; */
+    padding-top: 8rem;
+    font-size: 3rem;
+}
+
+/* #endregion */
 
 /* #region Wildcards */
 
