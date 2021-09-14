@@ -101,6 +101,26 @@ Text Colors
     color: white;
 }
 
+.text_black {
+    color: black;
+}
+
+/************
+Link property
+*************/
+
+.text_black a {
+    color: black;
+}
+
+.text_white a {
+    color: white;
+}
+
+.no-d a {
+    text-decoration: none;
+}
+
 /* #endregion */
 
 /* #region Debug */
@@ -194,7 +214,7 @@ header {
 }
 
 .top_links li {
-    margin: 0 2rem;
+    margin: 0 1.5rem;
 }
 
 /* #endregion */
