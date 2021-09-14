@@ -91,6 +91,16 @@ body {
     background-color: slategrey;
 }
 
+.debug .dropbox_trial {
+    height: 100px;
+    background-color: burlywood;
+}
+
+.debug .faq_list {
+    height: 250px;
+    background-color: cornsilk;
+}
+
 /* #endregion */
 
 /* #region Header */
