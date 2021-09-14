@@ -112,6 +112,7 @@ Buttons
 
 .btn {
     padding: .5rem 1rem;
+    display: inline-block;
 }
 
 /************
@@ -185,7 +186,7 @@ Link property
 
 .debug .hero_block {
     /* background-color: blue; */
-    height: 600px;
+    /* height: 600px; */
 }
 
 .debug .planeCard_block {
@@ -259,10 +260,24 @@ Link property
 
 /* #region Header */
 
+.row .logo {
+    vertical-align: middle;
+    line-height: 2.5rem;
+    padding-top: 9px;
+}
+
 header {
     position: fixed;
     top: 0;
     left: 0;
+}
+
+.top_links {
+    line-height: 2.5rem;
+}
+
+.top_links ul {
+    display: inline-block;
 }
 
 .top_links li {
