@@ -20,9 +20,8 @@ body {
 
 /* #region Utility */
 
-.px {
-    margin-left: .5rem;
-    margin-right: .5rem;
+.f-l {
+    float: left;
 }
 
 /* #endregion */
@@ -76,6 +75,22 @@ body {
     border: 1px solid black;
 }
 
+.debug .deb_odd {
+    background-color: deepskyblue;
+}
+
+.debug .deb_even {
+    background-color: slateblue;
+}
+
+.debug .team_splash {
+    height: 50px;
+}
+
+.debug .team_infobox {
+    background-color: slategrey;
+}
+
 /* #endregion */
 
 /* #region Header */
@@ -112,6 +127,27 @@ header {
 .info {
     float: left;
     width: 33%;
+}
+
+/* #endregion */
+
+/* #region Team */
+
+.team_grid {
+    width: 14%;
+}
+
+.team_grid .row {
+    /* width: 50%; */
+}
+
+.team_infobox {
+    width: 72%;
+}
+
+.team_splash {
+    width: 50%;
+    height: 50%;
 }
 
 /* #endregion */
