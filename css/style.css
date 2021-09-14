@@ -26,6 +26,22 @@ body {
     width: 100%
 }
 
+.debug .hero_block {
+    background-color: blue;
+    height: 600px;
+}
+
+.debug .planeCard_block {
+    height: 800px;
+    background-color: cadetblue;
+}
+
+.debug .planeCard_text {
+    background-color: chocolate;
+}
+
+.debug .wildcard {}
+
 /* #endregion */
 
 /* #region Header */
@@ -35,5 +51,9 @@ header {
     top: 0;
     left: 0;
 }
+
+/* #endregion */
+
+/* #region Main */
 
 /* #endregion */
