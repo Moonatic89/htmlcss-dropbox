@@ -301,6 +301,14 @@ header {
     font-size: 2.4rem;
 }
 
+.hero_text * {
+    margin: 1rem 0;
+}
+
+.downarrow i {
+    font-size: 3rem;
+}
+
 /* #endregion */
 
 /* #region Wildcards */
