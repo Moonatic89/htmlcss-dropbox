@@ -53,6 +53,10 @@ Margin & Paddings
     margin-bottom: 2rem;
 }
 
+.m-b5 {
+    margin-bottom: 5rem;
+}
+
 .b_spacer2 {
     margin-bottom: 2rem;
 }
@@ -388,7 +392,6 @@ header {
 }
 
 .wildcard {
-    font-size: .8rem;
     height: 600px;
 }
 
