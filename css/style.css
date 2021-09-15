@@ -107,6 +107,10 @@ Columns widths
     width: 10%;
 }
 
+.col-25 {
+    width: 25%;
+}
+
 .col-30 {
     width: 30%;
 }
@@ -460,9 +464,9 @@ header {
     width: 72%;
 }
 
-.team_splash {
-    width: 50%;
-    height: 50%;
+.dim_fix {
+    width: 400px;
+    height: 400px;
 }
 
 .custom_white {
