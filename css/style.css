@@ -12,6 +12,10 @@
     clear: both;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     position: relative;
     font-family: 'Open Sans', sans-serif;
