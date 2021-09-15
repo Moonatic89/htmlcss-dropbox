@@ -29,6 +29,20 @@ body {
 Margin & Paddings
 *************/
 
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.auto-mid {
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+
 .p1 {
     padding: 1rem;
 }
@@ -77,6 +91,10 @@ Float
 Columns widths
 *************/
 
+.rowx2 {
+    height: 50%;
+}
+
 .col-5 {
     width: 5%;
 }
@@ -87,6 +105,10 @@ Columns widths
 
 .col-10 {
     width: 10%;
+}
+
+.col-30 {
+    width: 30%;
 }
 
 .col-35 {
@@ -141,6 +163,10 @@ Text
     font-size: .8rem;
 }
 
+.f-s1_2 {
+    font-size: 1.2rem;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -175,6 +201,10 @@ Text
     color: black;
 }
 
+.text_underline {
+    text-decoration: underline;
+}
+
 /************
 Buttons
 *************/
@@ -194,6 +224,22 @@ Background colors
 
 .back_blue {
     background-color: #0061ff;
+}
+
+.back_green {
+    background-color: #a2d39b;
+}
+
+.back_darkred {
+    background-color: #61082b;
+}
+
+.back_cyan {
+    background-color: #0093ce;
+}
+
+.back_red {
+    background-color: #ff1c1c;
 }
 
 .border_gray {
@@ -260,52 +306,6 @@ Link property
 /* #endregion */
 
 /* #region Debug */
-
-/* .debug header {
-    background-color: aqua;
-    width: 100%
-} */
-
-/* .debug .hero_block {
-    background-color: blue;
-    height: 600px;
-} */
-
-/* .debug .planeCard_block {
-    height: 625px;
-    background-color: cadetblue;
-}
-
-.debug .planeCard_text {
-    background-color: chocolate;
-} */
-
-/* .debug .row .wildcard {
-    height: 400px;
-    background-color: coral;
-    border: 1px solid black;
-} */
-
-/* .debug .enterCard {
-    height: 100px;
-    background-color: crimson;
-} */
-
-/* .debug .partner_block {
-    height: 400px;
-    background-color: darkgreen;
-} */
-
-/* .debug .info_title {
-    height: 2rem;
-    background-color: darkolivegreen;
-} */
-
-.debug .info {
-    height: 100px;
-    background-color: darksalmon;
-    border: 1px solid black;
-}
 
 .debug .deb_odd {
     background-color: deepskyblue;
@@ -447,8 +447,13 @@ header {
 
 /* #region Team */
 
-.team_grid {
-    width: 14%;
+.team {
+    width: 200px;
+    height: 200px;
+}
+
+.team img {
+    padding: 11%
 }
 
 .team_infobox {
@@ -458,6 +463,10 @@ header {
 .team_splash {
     width: 50%;
     height: 50%;
+}
+
+.custom_white {
+    filter: invert(99%) sepia(6%) saturate(917%) hue-rotate(284deg) brightness(128%) contrast(100%)
 }
 
 .row .bottom_links {
