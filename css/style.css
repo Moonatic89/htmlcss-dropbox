@@ -37,6 +37,14 @@ Margin & Paddings
     margin: auto;
 }
 
+.m-t1 {
+    margin-top: 1rem;
+}
+
+.m-b05 {
+    margin-bottom: .5rem;
+}
+
 .m-b1 {
     margin-bottom: 1rem;
 }
@@ -78,7 +86,7 @@ Columns widths
 }
 
 .col-33 {
-    width: 33%;
+    width: 33.33%;
 }
 
 .col-40 {
@@ -117,6 +125,14 @@ Columns widths
 Text
 *************/
 
+.f-s08 {
+    font-size: .8rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .text_spacer1 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -137,6 +153,10 @@ Text
 
 .double_line {
     line-height: 2rem;
+}
+
+.text_gray {
+    color: gray;
 }
 
 /************
@@ -252,10 +272,10 @@ Link property
     border: 1px solid black;
 } */
 
-.debug .enterCard {
+/* .debug .enterCard {
     height: 100px;
     background-color: crimson;
-}
+} */
 
 .debug .partner_block {
     height: 400px;
@@ -369,14 +389,11 @@ header {
 
 .wildcard {
     font-size: .8rem;
-}
-
-.planeCard_col .row {
-    padding: 0 1rem;
+    height: 600px;
 }
 
 .row .col-33 {
-    margin: 0 -1rem;
+    padding: 0 1rem;
 }
 
 .planeCard_text h2 {
@@ -385,6 +402,15 @@ header {
 
 .planeCard_col .row {
     padding: 1rem;
+}
+
+.wildcard ul>li, .wildcard dl>dd {
+    margin-bottom: 0.5rem;
+}
+
+.underline_text {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightgray;
 }
 
 /* #endregion */
