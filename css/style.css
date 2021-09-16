@@ -76,6 +76,10 @@ Margin & Paddings
     margin-bottom: 5rem;
 }
 
+.p-b2 {
+    padding-bottom: 2rem;
+}
+
 .b_spacer2 {
     margin-bottom: 2rem;
 }
@@ -198,8 +202,26 @@ Text
 }
 
 .row_list li {
-    list-style: none;
     display: inline-block;
+}
+
+.nos_list li {
+    list-style: none;
+}
+
+.underline_li li {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.bold_li-fc li>:first-child {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.spacer_li li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .align-r {
@@ -338,25 +360,6 @@ Link property
 
 .no-d a {
     text-decoration: none;
-}
-
-/* #endregion */
-
-/* #region Debug */
-
-.debug .dropbox_trial {
-    height: 100px;
-    background-color: burlywood;
-}
-
-.debug .faq_list {
-    height: 250px;
-    background-color: cornsilk;
-}
-
-.debug .footer_col {
-    background-color: gray;
-    height: 300px;
 }
 
 /* #endregion */
