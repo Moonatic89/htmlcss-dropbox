@@ -305,6 +305,18 @@ Background colors
     background-color: #b4d0e7;
 }
 
+.back_monza {
+    background-color: #b4d0e7;
+}
+
+.back_catalina {
+    background-color: #0d2481;
+}
+
+.back_yellow {
+    background-color: #ffd830;
+}
+
 .border_gray {
     border: 1px solid lightgray;
 }
@@ -488,12 +500,16 @@ header {
 }
 
 .team_infobox {
-    height: 571px;
+    height: 100%;
 }
 
 .infobox_body {
     top: 10%;
     left: 10%;
+}
+
+.info_body .row {
+    margin: 0 -1rem;
 }
 
 /* #region Info */
