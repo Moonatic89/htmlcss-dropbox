@@ -273,6 +273,10 @@ Background colors
     background-color: white;
 }
 
+.back_black {
+    background-color: black;
+}
+
 .back_blue {
     background-color: #0061ff;
 }
@@ -542,7 +546,16 @@ header {
 }
 
 .footer_col .row {
-    padding: 2rem;
+    padding: 4rem 0;
+}
+
+.design_underline {
+    width: 100px;
+    border-bottom: 1px solid lightgray;
+}
+
+.footer_col {
+    min-height: 400px;
 }
 
 /* #endregion */
