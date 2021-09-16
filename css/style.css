@@ -387,15 +387,18 @@ vertical align
 
 header {
     position: fixed;
-    background-color: white;
-    height: 60px;
-    line-height: 60px;
+    height: 30px;
+    line-height: 30px;
     vertical-align: middle;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1;
     min-width: 1440px;
+}
+
+.top_links li:hover {
+    border-bottom: 2px solid black;
 }
 
 .top_links {
