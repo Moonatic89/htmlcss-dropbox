@@ -316,17 +316,10 @@ Background colors
 /* 
 Color list 
 
-Designit a2d39b d0e9cd
-ASU 61082b
-UF 0093ce
-Topps ff1c1c
-
 World something d5001f
 Hearst b4d0e7
 lonely planet 0d2481
 clear channel ffd830
-
-trial b4d0e7
 
 */
 
@@ -336,6 +329,10 @@ Text Colors
 
 .text_white {
     color: white;
+}
+
+.text_lightgray {
+    color: lightgray;
 }
 
 .text_black {
@@ -524,13 +521,10 @@ header {
     padding-left: 4rem;
 }
 
-.onHover_spawn li {
+.faq_block li {
     height: 2rem;
     overflow: hidden;
-    transition: overflow 4s;
 }
-
-.switch_arrow:before {}
 
 .onHover_spawn li:hover {
     overflow: visible;
