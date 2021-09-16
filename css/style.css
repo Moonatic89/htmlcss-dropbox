@@ -228,6 +228,10 @@ Text
     text-align: right;
 }
 
+.align-l {
+    text-align: left;
+}
+
 .align-c {
     text-align: center;
 }
@@ -514,6 +518,23 @@ header {
 .trial_cta .btn {
     padding-right: 4rem;
     padding-left: 4rem;
+}
+
+.onHover_spawn li {
+    height: 2rem;
+    overflow: hidden;
+    transition: overflow 4s;
+}
+
+.switch_arrow:before {}
+
+.onHover_spawn li:hover {
+    overflow: visible;
+    height: 100%;
+}
+
+.onHover_spawn li:hover .switch_arrow:before {
+    transform: rotate(180deg);
 }
 
 .row .bottom_links {
