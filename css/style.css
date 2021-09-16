@@ -259,6 +259,14 @@ Background colors
     background-color: #ff1c1c;
 }
 
+.back_gray {
+    background-color: #f5f5f5;
+}
+
+.back_spindle {
+    background-color: #b4d0e7;
+}
+
 .border_gray {
     border: 1px solid lightgray;
 }
@@ -323,22 +331,6 @@ Link property
 /* #endregion */
 
 /* #region Debug */
-
-.debug .deb_odd {
-    background-color: deepskyblue;
-}
-
-.debug .deb_even {
-    background-color: slateblue;
-}
-
-.debug .team_splash {
-    height: 50px;
-}
-
-.debug .team_infobox {
-    background-color: slategrey;
-}
 
 .debug .dropbox_trial {
     height: 100px;
@@ -503,6 +495,10 @@ header {
 
 .custom_white {
     filter: invert(99%) sepia(6%) saturate(917%) hue-rotate(284deg) brightness(128%) contrast(100%)
+}
+
+.trial_cta {
+    min-height: 300px;
 }
 
 .row .bottom_links {
