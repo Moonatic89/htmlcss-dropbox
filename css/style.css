@@ -184,6 +184,10 @@ Text
     font-size: 1.2rem;
 }
 
+.f-s2 {
+    font-size: 2rem;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -238,6 +242,10 @@ Buttons
 /************
 Background colors
 *************/
+
+.back_white {
+    background-color: white;
+}
 
 .back_blue {
     background-color: #0061ff;
@@ -306,6 +314,10 @@ Text Colors
 
 .text_blue {
     color: blue;
+}
+
+.text_mulberry {
+    color: #61082B;
 }
 
 /************
@@ -488,17 +500,17 @@ header {
 
 /* #region Team */
 
-.dim_fix {
-    width: 200px;
-    height: 200px;
-}
-
 .custom_white {
     filter: invert(99%) sepia(6%) saturate(917%) hue-rotate(284deg) brightness(128%) contrast(100%)
 }
 
 .trial_cta {
     min-height: 300px;
+}
+
+.trial_cta .btn {
+    padding-right: 4rem;
+    padding-left: 4rem;
 }
 
 .row .bottom_links {
