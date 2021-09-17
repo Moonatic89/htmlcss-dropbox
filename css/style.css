@@ -566,8 +566,20 @@ header {
     height: 100%;
 }
 
-.onHover_spawn li:hover .switch_arrow:before {
+/* .onHover_spawn li:hover .switch_arrow:before {
     transform: rotate(180deg);
+} */
+
+.hideUp:before {
+    display: none;
+}
+
+.onHover_spawn li:hover .hideUp:before {
+    display: inherit;
+}
+
+.onHover_spawn li:hover .hideDown:before {
+    display: none;
 }
 
 .row .bottom_links {
