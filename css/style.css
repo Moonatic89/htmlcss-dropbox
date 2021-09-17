@@ -248,8 +248,16 @@ Text
     color: gray;
 }
 
-.text_gray {
+.text_lightgray {
+    color: lightgray;
+}
+
+.text_black {
     color: black;
+}
+
+.text_red {
+    color: red;
 }
 
 .text_underline {
